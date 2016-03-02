@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Lato:400,700);
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	padding-top: 50px;
+}
+
+/* typefaces */
+.navbar-brand{
+	font-family: "Pacifico";
+}
+
+.jumbotron h1{
+	font-family: "Pacifico";
+	color: white;
+	text-shadow: 1px 5px 2px black;
+	font-size: 6em;
+	border-bottom: 1px solid #ccc;
+	display: inline;
+}
+
+.jumbotron h2{
+	font-family: "Pacifico";
+	color: white;
+	text-shadow: 1px 5px 2px black;
+	max-width: 70%;
+	margin: 0 auto;
+	line-height: 1.4em;
+}
+
+nav{
+	font-family: "Pacifico";
+	font-size: 1.2em;
+}
+
+section#about h2,
+section#featured h2,
+section#featured h3,
+section#contact h2,
+section#contact h3{
+	font-family: "Roboto";
+	font-weight: 700;
+}
+
+section#about p,
+section#featured p,
+section#contact h3,
+section#contact h3 span{
+	font-family: "Roboto";
+	font-weight: 400;
+	line-height: 1.6em;
+}
+
+/* navbar styles */
+.navbar-inverse{
+	margin-bottom: 0;
+	border-radius: 0;
+	padding: 10px 0;
+}
+
+/* jumbotron styles */
+.jumbotron{
+	margin-top: 0;
+	background: url(https://images.unsplash.com/photo-1432752641289-a25fc853fceb) no-repeat center center fixed;
+	background-size: cover;
+	text-align: center;
+}
+
+.jumbotron hr{
+	max-width: 75%;
+}
+
+/* about section styles */
+section#about{
+	text-align: center;
+	line-height: 1.2em;
+	max-width: 60%;
+	margin: 0 auto;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 30px;
+}
+
+/* featured section styles */
+section#featured{
+	text-align: center;
+	background: rgba(229, 22, 9, .7);
+	padding-bottom: 30px;
+}
+
+section#featured h2{
+	padding-top: 20px;
+	margin-bottom: 25px;
+}
+
+section#featured .thumbnail{
+	background: rgba(128, 78, 77, .3);
+	border-color: rgba(64, 6, 2, .5);
+	box-shadow: 2px 2px 5px #ccc;
+}
+
+/* contact section styles */
+section#contact{
+	text-align: center;
+	background: url(https://images.unsplash.com/photo-1438460233291-957406c3337b) no-repeat center center fixed;
+	background-size: cover;
+	margin-top: -30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+section#contact a{
+	text-decoration: none;
+	color: inherit;
+	font-size: 1.5em;
+}
+
+section#contact{
+	color: white;
+}
+
+section#contact small{
+	color: #000;
+	font-size: 1.2em;
+}
+
+/* footer */
+footer{
+	text-align: center;
+	height: 75px;
+	background-color: #ccc;
+	padding: 30px;
+}
+
+@media (max-width: 480px) {
+	.caption p{
+		display: none;
+	}
+	
+	#contact small {
+		font-size: .9em;
+	}	
+}
