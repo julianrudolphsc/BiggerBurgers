@@ -135,12 +135,54 @@ footer{
 	padding: 30px;
 }
 
+/* //      Menu page styles only  ///////////////////////////////////////////////////////////    */
+section#menu{
+	background: rgba(229, 22, 9, .7);
+	padding-bottom: 45px;
+}
+
+
+.menu_title h2{
+	text-align: center;
+	border-bottom: 2px dotted rgba(232, 135, 59, .9);
+	font-family: "Pacifico";
+	color: rgba(232, 135, 59, 1);
+	text-shadow: 1px 1px 7px black;
+}
+
+.menu_items h6{
+	font-family: "Lato";
+	font-weight: 700;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted rgba(232, 135, 59, .9);
+}
+
+.menu_items p{
+	font-family: "Lato";
+	font-weight: 400;
+	text-align: center;
+}
+
+.menu_items{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#menutron{
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+
+
+
 @media (max-width: 480px) {
 	.caption p{
 		display: none;
 	}
 	
-	#contact small {
+	section#contact small {
 		font-size: .9em;
 	}	
 }
